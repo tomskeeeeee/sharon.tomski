@@ -1,0 +1,101 @@
+
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Livvic', sans-serif;
+}
+
+h1{
+  margin:0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #709FB0;
+}
+
+hr{
+  border:none;
+  border-top: 10px dotted #726A95;
+  height: 10px;
+  width: 80px;
+}
+/******************* CLASS SELECTORS *********************/
+.top-container{
+  position:relative; /*need this for clouds to be absolute*/
+  padding-top: 100px; /*push everything down a little*/
+  padding-bottom: 50px;
+  background-color: #A0C1B8;
+}
+
+.bottom-container{
+  position:relative; /*need this for clouds to be absolute*/
+  padding-top: 30px; /*push everything down a little*/
+  padding-bottom: 50px;
+}
+.top-cloud{
+  position: absolute; /*take it out of the flow*/
+  right:300px;
+  top:50px;
+}
+
+.bottom-cloud{
+position:absolute;
+left:300px;
+bottom:300px; /*compared to parent (top container)*/
+}
+
+.software-developer{
+  font-size: 2rem;
+  margin:0 auto 0 auto;
+  font-weight: normal;
+  color: #709FB0;
+}
+
+.my-skills{
+  margin:0 auto 0 auto;
+}
+
+.brain-img{
+  border-radius: 50%;
+  width:25%;
+  background-color: #709FB0;
+  float: left;
+  margin-right: 30px;
+}
+
+.kitty-img{
+  border-radius: 50%;
+  width:25%;
+  background-color: #709FB0;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-img{
+  border-radius: 50%;
+  width:25%;
+  background-color: #709FB0;
+  margin-top:30px;
+
+}
+
+.footer-image{
+  margin-top: 10px;
+  width:40px;
+}
+
+.skill-row{
+  margin: 50px auto 100px auto;
+  width:50%;
+  text-align: left;
+  line-height: 2;
+  color: #726A95;
+}
+
+.paragraph-skill-row{
+  color:black;
+}
+/************* Font Families
+font-family: 'Coming Soon', cursive;
+font-family: 'Livvic', sans-serif;
+font-family: 'Sacramento', cursive;
+*******/
